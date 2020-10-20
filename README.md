@@ -4,5 +4,5 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kumarlakshya24&theme=dracula&show_icons=true&repo=Data-Science-Projects" />
 </a>
 <a href="https://github.com/kumarlakshya24/kumarlakshya24">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kumarlakshya24&theme=dracula&show_icons=true&repo=INFO6205-Algorithms" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kumarlakshya24&theme=dracula&show_icons=true&repo=INFO-5100-Application-Engineering-and-Development-Assignments" />
 </a>
