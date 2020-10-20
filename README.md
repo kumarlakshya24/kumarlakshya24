@@ -1,3 +1,8 @@
+Hi, I am Lakshya!👋👋
+
+You can check out my LinkedIn at:
+https://www.linkedin.com/in/lakshyakumar24/
+
 ![Lakshya's github stats](https://github-readme-stats.vercel.app/api?username=kumarlakshya24&theme=calm&show_icons=true) ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarlakshya24&theme=calm&show_icons=true&layout=compact)
 
 <a href="https://github.com/kumarlakshya24/kumarlakshya24">
