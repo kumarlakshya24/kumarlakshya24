@@ -2,7 +2,7 @@
 <p align="center">I'm a Masters in Information Systems Student at Northeastern University, Seattle and will be graduating in December 2021.
 I am passionate about Machine Learning, Data Analysis and Business Intelligence.
 With 2 years of experience as a cyber security analyst at Capgemini, I gained confidence in solving complex business problems using data. I love soccer, hiking and reading and I am looking for summer 2021 internships in the west coast.
-</p></br></br>
+</p></br>
 <p align='center'>
 <a href="https://www.linkedin.com/in/lakshyakumar24/"><img height="30" src="https://github.com/stephenajulu/WaylonWalker/blob/main/icon/linkedin.png?raw=true"></a>
 <a href="https://lakshyakumar.com/"><img height="30" src="https://raw.githubusercontent.com/kumarlakshya24/kumarlakshya24/main/favicon.ico"></a>
