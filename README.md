@@ -10,7 +10,7 @@ With 2 years of experience as a cyber security analyst at Capgemini, I gained co
 </p>
 
 ![Lakshya's github stats](https://github-readme-stats.vercel.app/api?username=kumarlakshya24&theme=calm&show_icons=true)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=kumarlakshya24&theme=calm&repo=Data-Science-Projects)](https://github.com/kumarlakshya24/Data-Science-Projects)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarlakshya24)]
 <a>
 </a>
 <a>
