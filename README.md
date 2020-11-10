@@ -9,8 +9,8 @@ I am passionate about Machine Learning, Data Analysis and Business Intelligence.
 With 2 years of experience as a cyber security analyst at Capgemini, I gained confidence in solving complex business problems using data. I love soccer, hiking and reading and I am looking for summer 2021 internships in the west coast.
 </p>
 
-![Lakshya's github stats](https://github-readme-stats.vercel.app/api?username=kumarlakshya24&theme=calm&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarlakshya24&theme=calm&layout=compact)
+<a>![Lakshya's github stats](https://github-readme-stats.vercel.app/api?username=kumarlakshya24&theme=calm&show_icons=true)</a>
+<a>![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kumarlakshya24&theme=calm&layout=compact)</a>
 <a>
 </a>
 <a>
