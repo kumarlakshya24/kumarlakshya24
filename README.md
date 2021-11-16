@@ -1,7 +1,7 @@
 <h2 align="center">Hello there! My name is Lakshya Kumar 👋</h2>
 <p align="center">I'm a Masters in Information Systems Student at Northeastern University, Seattle and will be graduating in December 2021.
 I am passionate about Machine Learning, Data Analysis and Business Intelligence.
-I worked as an Solutions Architect Intern at Amazon Web Services in Summer '21. I am looking for full-time opportunities starting 2022.
+I worked as an Solutions Architect Intern at Amazon Web Services in Summer '21.
 </p></br>
 
 <p align='center'>
