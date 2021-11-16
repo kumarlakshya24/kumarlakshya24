@@ -5,7 +5,7 @@ I worked as an Solutions Architect Intern at Amazon Web Services in Summer '21. 
 </p></br>
 
 <p align='center'>
-<a href="https://www.linkedin.com/in/lakshyakumar24/"><img height="30" src="https://github.com/stephenajulu/WaylonWalker/blob/main/icon/linkedin.png?raw=true"></a>
+<a href="https://www.linkedin.com/in/lakshyakumar24/"><img height="30" src="https://images.vexels.com/media/users/3/137382/isolated/lists/c59b2807ea44f0d70f41ca73c61d281d-linkedin-icon-logo.png"></a>
 <a href="https://lakshyakumar.com/"><img height="30" src="https://raw.githubusercontent.com/kumarlakshya24/kumarlakshya24/main/favicon.ico"></a>
 </p>
 
