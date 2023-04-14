@@ -6,7 +6,7 @@ I worked as an Solutions Architect Intern at Amazon Web Services in Summer '21.
 
 <p align='center'>
 <a href="https://www.linkedin.com/in/lakshyakumar24/"><img height="30" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
-<a href="https://lakshyakumar.com/"><img height="30" src="https://raw.githubusercontent.com/kumarlakshya24/kumarlakshya24/main/favicon.ico"></a>
+<a href="https://lakshyak.com/"><img height="30" src="https://raw.githubusercontent.com/kumarlakshya24/kumarlakshya24/main/favicon.ico"></a>
 </p>
 
 ![Lakshya's github stats](https://github-readme-stats.vercel.app/api?username=kumarlakshya24&theme=calm&show_icons=true)
