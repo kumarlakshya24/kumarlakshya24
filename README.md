@@ -5,6 +5,7 @@
 **I design and build applied AI systems:** the gateway in front of the model, the retrieval behind the answer,
 the router that picks the model, the runtime that survives a crash, and the evaluation loop that says when quality dropped.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-kumarlakshya24.github.io-18181b?logo=githubpages&logoColor=white)](https://kumarlakshya24.github.io/enterprise-ai-platform/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshyakumar24-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshyakumar24/)
 [![Projects](https://img.shields.io/badge/Enterprise%20AI%20Platform-10%20projects%20%C2%B7%20477%20tests-6e56cf)](https://github.com/kumarlakshya24/enterprise-ai-platform)
 
@@ -258,6 +259,70 @@ make install && make demo
 
 Every number comes from an evaluation report committed in that project. Start with the [platform overview](https://github.com/kumarlakshya24/enterprise-ai-platform#readme), which shows how the ten fit together.
 
+## Built at AWS
+
+[**sample-agentic-phishing-detection**](https://github.com/aws-samples/sample-agentic-phishing-detection) is an open-source AWS sample I built. Paste a link and get an explained phishing verdict in about 20 seconds. Three specialist agents check the link, the page and the page's code at the same time in an isolated cloud browser, and an orchestrator weighs their evidence. It runs in your own AWS account and deploys with AWS CDK.
+
+<a href="https://github.com/aws-samples/sample-agentic-phishing-detection"><picture><source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="assets/cards/phishing-light-mobile.svg"><source media="(max-width: 600px)" srcset="assets/cards/phishing-dark-mobile.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cards/phishing-light.svg"><img src="assets/cards/phishing-dark.svg" alt="Agentic Phishing Detection: 88.3% of phishing caught, 4.6% false positives, 18.6 second median scan, $0.090 model cost per scan, on 407 live URLs" width="100%"></picture></a>
+
+<details>
+<summary><b>Measured results</b></summary>
+<br>
+
+407 live URLs, measured on November 3, 2026. 188 were phishing pages from a public feed that day and 219 were legitimate pages.
+
+| Measure | Result | Against the previous default |
+| --- | --- | --- |
+| Phishing caught (recall) | **88.3%** (166 of 188) | Same, within run-to-run noise |
+| False positive rate | **4.6%** (10 of 219) | Same, within run-to-run noise |
+| Median scan time | **18.6 s** | 51% faster |
+| p90 scan time | **31.2 s** | 57% faster |
+| Model cost per scan (mean) | **$0.090** | 33% lower |
+
+How it was measured is in [docs/evaluation.md](https://github.com/aws-samples/sample-agentic-phishing-detection/blob/main/docs/evaluation.md).
+
+</details>
+
+<details>
+<summary><b>How a scan works</b></summary>
+<br>
+
+```mermaid
+flowchart LR
+  U["You or an API client<br/>submit a URL"]:::neutral --> W["Worker<br/>takes the queued scan"]:::neutral
+  W --> P["Pre-check<br/>a dead link gets a fixed answer"]:::neutral
+  W --> A1["url_analyst<br/>domain, age, redirects"]:::spec
+  W --> A2["brand_visual<br/>branding, fake sign-in pages"]:::spec
+  W --> A3["code_analyst<br/>forms, scripts, obfuscation"]:::spec
+  A1 --> O["Orchestrator<br/>verdict first, then the report"]:::orch
+  A2 --> O
+  A3 --> O
+  classDef spec fill:#18181b,stroke:#ff9900,stroke-width:2.5px,color:#fafafa
+  classDef orch fill:#18181b,stroke:#ff9900,stroke-width:4px,color:#fafafa
+  classDef neutral fill:#27272a,stroke:#52525b,stroke-width:1.5px,color:#fafafa
+```
+
+The specialists run on Amazon Bedrock AgentCore Runtime and open the page in AgentCore Browser, so it never loads on your machine. The orchestrator gives the verdict first and then writes a plain-language report, which an Amazon Bedrock guardrail screens.
+
+</details>
+
+<details>
+<summary><b>Watch it run</b></summary>
+<br>
+
+<a href="https://github.com/aws-samples/sample-agentic-phishing-detection/blob/main/docs/media/demo.mp4"><img src="https://raw.githubusercontent.com/aws-samples/sample-agentic-phishing-detection/main/docs/media/teaser.gif" alt="A reported parcel-delivery link is scanned, the live stages run, and the result shows Phishing, risk 95, recommended action Block, with the orchestrator report and the specialists' evidence" width="100%"></a>
+<sub>A 25-second excerpt. The <a href="https://github.com/aws-samples/sample-agentic-phishing-detection/blob/main/docs/media/demo.mp4">full 4-minute demo</a> has narration.</sub>
+
+</details>
+
+<details>
+<summary><b>Deploy it in your AWS account</b></summary>
+<br>
+
+You need AWS credentials, Python 3.13 with uv, Node.js 22, Docker or Finch, and Amazon Bedrock access to Claude Opus 5.5 and Claude Sonnet 5.5. One AWS CDK command deploys it, in 8 to 16 minutes the first time, and one tears it down. The stacks cost about $14 to $15 a month while idle, so delete them when you're done. Step by step: [Quick start](https://github.com/aws-samples/sample-agentic-phishing-detection#quick-start).
+
+</details>
+
 ## What I work with
 
-Python 3.12 · FastAPI · PostgreSQL and pgvector · Redis · SQLite · ONNX Runtime · OpenTelemetry-style tracing · Docker Compose · GitHub Actions · AWS (multi-account networking, KMS, Bedrock)
+Python 3.12 · FastAPI · PostgreSQL and pgvector · Redis · SQLite · ONNX Runtime · OpenTelemetry-style tracing · Docker Compose · GitHub Actions · AWS (multi-account networking, KMS, Bedrock, Bedrock AgentCore, CDK) · Strands Agents
