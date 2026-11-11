@@ -5,6 +5,7 @@
 **I design and build applied AI systems:** the gateway in front of the model, the retrieval behind the answer,
 the router that picks the model, the runtime that survives a crash, and the evaluation loop that says when quality dropped.
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-kumarlakshya24.github.io-18181b?logo=githubpages&logoColor=white)](https://kumarlakshya24.github.io/enterprise-ai-platform/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshyakumar24-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshyakumar24/)
 [![Projects](https://img.shields.io/badge/Enterprise%20AI%20Platform-10%20projects%20%C2%B7%20477%20tests-6e56cf)](https://github.com/kumarlakshya24/enterprise-ai-platform)
 
