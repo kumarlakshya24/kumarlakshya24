@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**I design and build applied AI systems:** the gateway in front of the model, the retrieval behind the answer,<br>
+**I design and build applied AI systems:** the gateway in front of the model, the retrieval behind the answer,
 the router that picks the model, the runtime that survives a crash, and the evaluation loop that says when quality dropped.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-lakshyakumar24-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lakshyakumar24/)
